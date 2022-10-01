@@ -4,10 +4,10 @@ This python code was created to extract the `optical-flow` from the video. This 
 
 ## Usage
 With the main code, you can get a numpy file for each video. 
-> python main.py --source_path <video folder path> --target_path <save folder path> --target_video_size <convert size of video>
+> python main.py --source_path `<video folder path>` --target_path `<save folder path>` --target_video_size `<convert size of video>`
 
 ## Visualization of Optical-flow 
-> TODO!!
+> python visualization.py --npy_save_path `<optical-flow path>` --vis_save_path `<jpg folder path>` 
 
 
 
